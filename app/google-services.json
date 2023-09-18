@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771544863966",
+    "project_id": "datebook-71334",
+    "storage_bucket": "datebook-71334.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771544863966:android:0d30774c8cba5fcf091e4f",
+        "android_client_info": {
+          "package_name": "com.example.datebook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyY5GtVp6CMNCUkLuz-RMRi359mKAc8m0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
