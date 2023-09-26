@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@drawable/signup"
+    android:background="@color/black"
     tools:context=".SignupActivity">
 
     <EditText
@@ -16,7 +16,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="370dp"
         android:background="@drawable/edittext_border"
-        android:hint="Username"
+        android:hint=" Create Username"
+        android:textColorHint="@color/white"
         android:padding="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,7 +27,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/Password"
-        android:hint="Password"
+        android:hint=" Create Password"
+        android:textColorHint="@color/white"
         android:inputType="textPassword"
         android:padding="12dp"
         android:background="@drawable/edittext_border"
@@ -57,7 +59,7 @@
         android:textSize="18sp"
         android:gravity="center"
         android:text="Already Registered? Login"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
