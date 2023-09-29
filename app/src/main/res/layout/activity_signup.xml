@@ -8,6 +8,14 @@
     android:background="@color/black"
     tools:context=".SignupActivity">
 
+    <ImageView
+        android:layout_width="409dp"
+        android:layout_height="327dp"
+        android:src="@drawable/notebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/Username"
         android:layout_width="0dp"
